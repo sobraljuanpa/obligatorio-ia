@@ -145,7 +145,7 @@ aprendizaje como el benchmarking en conjunto.
 ## Experimentos con learning rate
 
 
-El docente de practico me sugirio que intente replicar lo hecho con epsilon(inicial, final y decay) con el LR, para poder analizar el resultado que tiene sobre las graficas.
+El docente de practico me sugirio que intente replicar lo hecho con epsilon(inicial, final y decay) con el LR, para poder analizar el resultado que tiene sobre los experimentos.
 
 Se mantienen los mismos valores base que en el caso anterior, es decir los siguientes:
 
@@ -153,6 +153,9 @@ Se mantienen los mismos valores base que en el caso anterior, es decir los sigui
 |-----------------|-------|
 | Cant iteraciones| 10_000|
 | Factor descuento|  0.95 |
+
+Se utiliza el mismo ipynb para el benchmarking, pero para el entrenamiento se utiliza una version modificada del algoritmo anterior,
+la cual se encuentra en ```/Acrobot/model_training.ipynb```
 
 ### Primer experimento
 
